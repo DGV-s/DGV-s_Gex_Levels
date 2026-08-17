@@ -1,12 +1,12 @@
 {
-  "updated_at_utc": "2026-08-17T20:54:22.838711+00:00",
+  "updated_at_utc": "2026-08-17T21:13:58.547589+00:00",
   "ES": {
     "index_based": {
       "source": "SPX",
       "underlying_spot": 7745.0601,
-      "futures_price": 7764.75,
-      "call_wall": 7769.7,
-      "put_wall": 7769.7,
+      "futures_price": 7765.5,
+      "call_wall": 7770.45,
+      "put_wall": 7770.45,
       "gamma_flip": null,
       "net_gex_total": -20282421434.0,
       "regime": "NEGATIVO (dealers amplificam movimento)",
@@ -14,12 +14,12 @@
     },
     "etf_based": {
       "source": "SPY",
-      "underlying_spot": 772.42,
-      "futures_price": 7764.75,
-      "call_wall": 7770.58,
-      "put_wall": 7770.58,
+      "underlying_spot": 772.44,
+      "futures_price": 7765.5,
+      "call_wall": 7771.13,
+      "put_wall": 7771.13,
       "gamma_flip": null,
-      "net_gex_total": -3631914605.0,
+      "net_gex_total": -3632102687.0,
       "regime": "NEGATIVO (dealers amplificam movimento)",
       "gamma_flip_note": "Flip acima do maior strike com OI real hoje (950.0). O regime segue negativo ate o topo da cadeia liquida."
     }
@@ -28,9 +28,9 @@
     "index_based": {
       "source": "NDX",
       "underlying_spot": 29995.3809,
-      "futures_price": 30065.0,
-      "call_wall": 30069.63,
-      "put_wall": 30069.63,
+      "futures_price": 30078.25,
+      "call_wall": 30082.88,
+      "put_wall": 30082.88,
       "gamma_flip": null,
       "net_gex_total": -1039629782.0,
       "regime": "NEGATIVO (dealers amplificam movimento)",
@@ -38,12 +38,12 @@
     },
     "etf_based": {
       "source": "QQQ",
-      "underlying_spot": 729.354,
-      "futures_price": 30065.0,
-      "call_wall": 30091.63,
-      "put_wall": 30091.63,
-      "gamma_flip": 30065.89,
-      "net_gex_total": 819957959.0,
+      "underlying_spot": 729.38,
+      "futures_price": 30078.25,
+      "call_wall": 30103.82,
+      "put_wall": 30103.82,
+      "gamma_flip": 30078.07,
+      "net_gex_total": 820016420.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     }
   }
