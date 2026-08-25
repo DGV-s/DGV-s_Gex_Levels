@@ -1,50 +1,47 @@
 {
-  "updated_at_utc": "2026-08-25T13:39:58.708029+00:00",
+  "updated_at_utc": "2026-08-25T14:25:42.639145+00:00",
   "ES": {
     "index_based": {
       "source": "SPX",
-      "underlying_spot": 7652.8599,
-      "futures_price": 7695.0,
-      "call_wall": 7732.34,
-      "put_wall": 7692.12,
-      "gamma_flip": 7727.36,
-      "net_gex_total": 12517572725.0,
+      "underlying_spot": 7672.3799,
+      "futures_price": 7685.25,
+      "call_wall": 7702.9,
+      "put_wall": 7662.83,
+      "gamma_flip": 7696.52,
+      "net_gex_total": 9083663208.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     },
     "etf_based": {
       "source": "SPY",
-      "underlying_spot": 766.39,
-      "futures_price": 7694.75,
-      "call_wall": 7670.75,
-      "put_wall": 7670.75,
-      "gamma_flip": null,
-      "net_gex_total": -926316059.0,
-      "regime": "NEGATIVO (dealers amplificam movimento)",
-      "gamma_flip_note": "Flip acima do maior strike com OI real hoje (950.0). O regime segue negativo ate o topo da cadeia liquida."
+      "underlying_spot": 765.34,
+      "futures_price": 7685.25,
+      "call_wall": 7681.84,
+      "put_wall": 7671.79,
+      "gamma_flip": 7706.66,
+      "net_gex_total": 537114924.0,
+      "regime": "POSITIVO (dealers amortecem movimento)"
     }
   },
   "NQ": {
     "index_based": {
       "source": "NDX",
-      "underlying_spot": 29023.1816,
-      "futures_price": 29289.5,
-      "call_wall": 29639.5,
-      "put_wall": 29367.02,
-      "gamma_flip": null,
-      "net_gex_total": -37905528.0,
-      "regime": "NEGATIVO (dealers amplificam movimento)",
-      "gamma_flip_note": "Flip acima do maior strike com OI real hoje (38000.0). O regime segue negativo ate o topo da cadeia liquida."
+      "underlying_spot": 29191.1543,
+      "futures_price": 29250.5,
+      "call_wall": 29429.71,
+      "put_wall": 29159.16,
+      "gamma_flip": 29325.63,
+      "net_gex_total": 859281327.0,
+      "regime": "POSITIVO (dealers amortecem movimento)"
     },
     "etf_based": {
       "source": "QQQ",
-      "underlying_spot": 711.82,
-      "futures_price": 29294.75,
-      "call_wall": 29096.38,
-      "put_wall": 29055.23,
-      "gamma_flip": null,
-      "net_gex_total": -272599611.0,
-      "regime": "NEGATIVO (dealers amplificam movimento)",
-      "gamma_flip_note": "Flip acima do maior strike com OI real hoje (835.0). O regime segue negativo ate o topo da cadeia liquida."
+      "underlying_spot": 710.57,
+      "futures_price": 29250.5,
+      "call_wall": 29227.04,
+      "put_wall": 29062.38,
+      "gamma_flip": 29279.59,
+      "net_gex_total": 999528329.0,
+      "regime": "POSITIVO (dealers amortecem movimento)"
     }
   }
 }
