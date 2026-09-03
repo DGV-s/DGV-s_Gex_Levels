@@ -1,46 +1,40 @@
 {
-  "updated_at_utc": "2026-09-03T16:44:28.460734+00:00",
+  "updated_at_utc": "2026-09-03T19:27:25.226571+00:00",
   "ES": {
     "index_based": {
       "source": "SPX",
-      "underlying_spot": 7740.6401,
-      "futures_price": 7751.0,
-      "call_wall": 7750.36,
-      "put_wall": 7760.37,
-      "gamma_flip": 7708.09,
-      "net_gex_total": 34136676666.0,
-      "regime": "POSITIVO (dealers amortecem movimento)"
+      "error": "429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8/finance/chart/ES=F"
     },
     "etf_based": {
       "source": "SPY",
-      "underlying_spot": 772.375,
-      "futures_price": 7751.0,
-      "call_wall": 7747.24,
-      "put_wall": 7676.99,
-      "gamma_flip": 7706.41,
-      "net_gex_total": 3013271803.0,
+      "underlying_spot": 773.549,
+      "futures_price": 7759.25,
+      "call_wall": 7753.74,
+      "put_wall": 7743.71,
+      "gamma_flip": 7716.3,
+      "net_gex_total": 3366085276.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     }
   },
   "NQ": {
     "index_based": {
       "source": "NDX",
-      "underlying_spot": 29448.4512,
-      "futures_price": 29490.75,
-      "call_wall": 29442.23,
-      "put_wall": 29467.27,
-      "gamma_flip": 29315.89,
-      "net_gex_total": 2326380975.0,
+      "underlying_spot": 29499.6875,
+      "futures_price": 29532.5,
+      "call_wall": 29532.81,
+      "put_wall": 29507.79,
+      "gamma_flip": 29298.74,
+      "net_gex_total": 2598163353.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     },
     "etf_based": {
       "source": "QQQ",
-      "underlying_spot": 716.76,
-      "futures_price": 29490.75,
-      "call_wall": 29418.34,
-      "put_wall": 29418.34,
-      "gamma_flip": 24070.5,
-      "net_gex_total": 1818245685.0,
+      "underlying_spot": 718.0,
+      "futures_price": 29532.5,
+      "call_wall": 29532.5,
+      "put_wall": 29532.5,
+      "gamma_flip": 29340.93,
+      "net_gex_total": 1811447458.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     }
   }
