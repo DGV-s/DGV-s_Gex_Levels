@@ -1,40 +1,46 @@
 {
-  "updated_at_utc": "2026-09-03T19:27:25.226571+00:00",
+  "updated_at_utc": "2026-09-03T21:47:38.826570+00:00",
   "ES": {
     "index_based": {
       "source": "SPX",
-      "error": "429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8/finance/chart/ES=F"
+      "underlying_spot": 7747.71,
+      "futures_price": 7749.25,
+      "call_wall": 7751.54,
+      "put_wall": 7751.54,
+      "gamma_flip": 7743.96,
+      "net_gex_total": 1352510587.0,
+      "regime": "POSITIVO (dealers amortecem movimento)"
     },
     "etf_based": {
       "source": "SPY",
-      "underlying_spot": 773.549,
-      "futures_price": 7759.25,
-      "call_wall": 7753.74,
-      "put_wall": 7743.71,
-      "gamma_flip": 7716.3,
-      "net_gex_total": 3366085276.0,
+      "underlying_spot": 772.59,
+      "futures_price": 7749.25,
+      "call_wall": 7753.36,
+      "put_wall": 7743.33,
+      "gamma_flip": 7709.2,
+      "net_gex_total": 4386258908.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     }
   },
   "NQ": {
     "index_based": {
       "source": "NDX",
-      "underlying_spot": 29499.6875,
-      "futures_price": 29532.5,
-      "call_wall": 29532.81,
-      "put_wall": 29507.79,
-      "gamma_flip": 29298.74,
-      "net_gex_total": 2598163353.0,
+      "underlying_spot": 29482.3203,
+      "futures_price": 29502.25,
+      "call_wall": 29499.93,
+      "put_wall": 29494.92,
+      "gamma_flip": 29481.2,
+      "net_gex_total": 80140905.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     },
     "etf_based": {
       "source": "QQQ",
-      "underlying_spot": 718.0,
-      "futures_price": 29532.5,
-      "call_wall": 29532.5,
-      "put_wall": 29532.5,
-      "gamma_flip": 29340.93,
-      "net_gex_total": 1811447458.0,
+      "underlying_spot": 717.02,
+      "futures_price": 29502.25,
+      "call_wall": 29501.43,
+      "put_wall": 29501.43,
+      "gamma_flip": 29300.64,
+      "net_gex_total": 1576045075.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     }
   }
