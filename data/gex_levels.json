@@ -1,46 +1,46 @@
 {
-  "updated_at_utc": "2026-09-02T21:56:11.301514+00:00",
+  "updated_at_utc": "2026-09-03T16:44:28.460734+00:00",
   "ES": {
     "index_based": {
       "source": "SPX",
-      "underlying_spot": 7666.6001,
-      "futures_price": 7669.25,
-      "call_wall": 7672.65,
-      "put_wall": 7667.65,
-      "gamma_flip": 7662.73,
-      "net_gex_total": -5734207523.0,
-      "regime": "NEGATIVO (dealers amplificam movimento)"
+      "underlying_spot": 7740.6401,
+      "futures_price": 7751.0,
+      "call_wall": 7750.36,
+      "put_wall": 7760.37,
+      "gamma_flip": 7708.09,
+      "net_gex_total": 34136676666.0,
+      "regime": "POSITIVO (dealers amortecem movimento)"
     },
     "etf_based": {
       "source": "SPY",
-      "underlying_spot": 764.97,
-      "futures_price": 7669.25,
-      "call_wall": 7669.55,
-      "put_wall": 7679.58,
-      "gamma_flip": 7649.62,
-      "net_gex_total": 2695942881.0,
+      "underlying_spot": 772.375,
+      "futures_price": 7751.0,
+      "call_wall": 7747.24,
+      "put_wall": 7676.99,
+      "gamma_flip": 7706.41,
+      "net_gex_total": 3013271803.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     }
   },
   "NQ": {
     "index_based": {
       "source": "NDX",
-      "underlying_spot": 29143.3301,
-      "futures_price": 29141.0,
-      "call_wall": 29137.67,
-      "put_wall": 29137.67,
-      "gamma_flip": 29128.77,
-      "net_gex_total": 382539894.0,
+      "underlying_spot": 29448.4512,
+      "futures_price": 29490.75,
+      "call_wall": 29442.23,
+      "put_wall": 29467.27,
+      "gamma_flip": 29315.89,
+      "net_gex_total": 2326380975.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     },
     "etf_based": {
       "source": "QQQ",
-      "underlying_spot": 708.853,
-      "futures_price": 29141.0,
-      "call_wall": 29188.15,
-      "put_wall": 29188.15,
-      "gamma_flip": 29090.37,
-      "net_gex_total": 1040851942.0,
+      "underlying_spot": 716.76,
+      "futures_price": 29490.75,
+      "call_wall": 29418.34,
+      "put_wall": 29418.34,
+      "gamma_flip": 24070.5,
+      "net_gex_total": 1818245685.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     }
   }
