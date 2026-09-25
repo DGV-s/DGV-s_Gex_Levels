@@ -1,24 +1,24 @@
 {
-  "updated_at_utc": "2026-09-25T20:43:30.967497+00:00",
+  "updated_at_utc": "2026-09-25T23:33:33.294149+00:00",
   "ES": {
     "index_based": {
       "source": "SPX",
       "underlying_spot": 7743.4102,
-      "futures_price": 7804.75,
-      "call_wall": 7806.35,
-      "put_wall": 7801.31,
-      "gamma_flip": 7796.56,
+      "futures_price": 7805.75,
+      "call_wall": 7807.35,
+      "put_wall": 7802.31,
+      "gamma_flip": 7797.56,
       "net_gex_total": 36064088900.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     },
     "etf_based": {
       "source": "SPY",
-      "underlying_spot": 771.12,
-      "futures_price": 7804.75,
-      "call_wall": 7813.66,
-      "put_wall": 7813.66,
-      "gamma_flip": 7787.77,
-      "net_gex_total": 7556196613.0,
+      "underlying_spot": 772.3,
+      "futures_price": 7805.75,
+      "call_wall": 7802.72,
+      "put_wall": 7802.72,
+      "gamma_flip": 7776.86,
+      "net_gex_total": 7579339921.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     }
   },
@@ -26,9 +26,9 @@
     "index_based": {
       "source": "NDX",
       "underlying_spot": 30608.1348,
-      "futures_price": 30909.75,
-      "call_wall": 30901.54,
-      "put_wall": 30901.54,
+      "futures_price": 30921.75,
+      "call_wall": 30913.53,
+      "put_wall": 30913.53,
       "gamma_flip": null,
       "net_gex_total": 2206487764.0,
       "regime": "POSITIVO (dealers amortecem movimento)",
@@ -36,12 +36,12 @@
     },
     "etf_based": {
       "source": "QQQ",
-      "underlying_spot": 744.5048,
-      "futures_price": 30909.75,
-      "call_wall": 30930.31,
-      "put_wall": 30930.31,
-      "gamma_flip": 30804.72,
-      "net_gex_total": 4685071046.0,
+      "underlying_spot": 745.6,
+      "futures_price": 30921.75,
+      "call_wall": 30896.87,
+      "put_wall": 30896.87,
+      "gamma_flip": 30771.42,
+      "net_gex_total": 4698865084.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     }
   }
