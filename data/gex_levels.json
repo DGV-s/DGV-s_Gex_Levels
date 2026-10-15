@@ -1,24 +1,24 @@
 {
-  "updated_at_utc": "2026-10-15T20:27:06.362511+00:00",
+  "updated_at_utc": "2026-10-15T23:09:17.432292+00:00",
   "ES": {
     "index_based": {
       "source": "SPX",
       "underlying_spot": 7744.0601,
-      "futures_price": 7789.5,
-      "call_wall": 7790.45,
-      "put_wall": 7790.45,
-      "gamma_flip": 7785.46,
+      "futures_price": 7787.25,
+      "call_wall": 7788.2,
+      "put_wall": 7788.2,
+      "gamma_flip": 7783.21,
       "net_gex_total": 5954047859.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     },
     "etf_based": {
       "source": "SPY",
-      "underlying_spot": 771.69,
-      "futures_price": 7789.5,
-      "call_wall": 7792.63,
-      "put_wall": 7792.63,
-      "gamma_flip": 7773.77,
-      "net_gex_total": 7513224422.0,
+      "underlying_spot": 771.4519,
+      "futures_price": 7787.25,
+      "call_wall": 7792.78,
+      "put_wall": 7792.78,
+      "gamma_flip": 7778.67,
+      "net_gex_total": 7362312821.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     }
   },
@@ -26,9 +26,9 @@
     "index_based": {
       "source": "NDX",
       "underlying_spot": 29935.5957,
-      "futures_price": 30119.5,
-      "call_wall": 30123.93,
-      "put_wall": 30113.87,
+      "futures_price": 30069.25,
+      "call_wall": 30073.67,
+      "put_wall": 30063.63,
       "gamma_flip": null,
       "net_gex_total": -409356702.0,
       "regime": "NEGATIVO (dealers amplificam movimento)",
@@ -36,12 +36,12 @@
     },
     "etf_based": {
       "source": "QQQ",
-      "underlying_spot": 727.55,
-      "futures_price": 30119.5,
-      "call_wall": 30138.13,
-      "put_wall": 30138.13,
+      "underlying_spot": 726.4,
+      "futures_price": 30069.25,
+      "call_wall": 30135.48,
+      "put_wall": 30135.48,
       "gamma_flip": null,
-      "net_gex_total": -1047117204.0,
+      "net_gex_total": -984522512.0,
       "regime": "NEGATIVO (dealers amplificam movimento)",
       "gamma_flip_note": "Flip acima do maior strike com OI real hoje (900.0). O regime segue negativo ate o topo da cadeia liquida."
     }
