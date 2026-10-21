@@ -1,46 +1,48 @@
 {
-  "updated_at_utc": "2026-10-21T17:45:01.721332+00:00",
+  "updated_at_utc": "2026-10-21T20:54:08.698495+00:00",
   "ES": {
     "index_based": {
       "source": "SPX",
-      "underlying_spot": 7765.4102,
-      "futures_price": 7803.25,
-      "call_wall": 7812.89,
-      "put_wall": 7787.76,
-      "gamma_flip": 7783.47,
-      "net_gex_total": 31106837374.0,
-      "regime": "POSITIVO (dealers amortecem movimento)"
+      "underlying_spot": 7757.1699,
+      "futures_price": 7802.75,
+      "call_wall": 7805.6,
+      "put_wall": 7805.6,
+      "gamma_flip": null,
+      "net_gex_total": 72066291585.0,
+      "regime": "POSITIVO (dealers amortecem movimento)",
+      "gamma_flip_note": "Flip abaixo do menor strike com OI real hoje (3200.0). O regime ja esta positivo mesmo no strike liquido mais baixo da cadeia."
     },
     "etf_based": {
       "source": "SPY",
-      "underlying_spot": 773.97,
-      "futures_price": 7803.25,
-      "call_wall": 7793.47,
-      "put_wall": 7803.55,
-      "gamma_flip": 7773.58,
-      "net_gex_total": 3090535415.0,
+      "underlying_spot": 773.32,
+      "futures_price": 7802.75,
+      "call_wall": 7799.52,
+      "put_wall": 7799.52,
+      "gamma_flip": 7776.36,
+      "net_gex_total": 3577515393.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     }
   },
   "NQ": {
     "index_based": {
       "source": "NDX",
-      "underlying_spot": 29900.6465,
-      "futures_price": 30053.25,
-      "call_wall": 30027.47,
-      "put_wall": 30062.65,
-      "gamma_flip": 29698.93,
-      "net_gex_total": 2231903078.0,
-      "regime": "POSITIVO (dealers amortecem movimento)"
+      "underlying_spot": 29822.5176,
+      "futures_price": 30015.5,
+      "call_wall": 30023.03,
+      "put_wall": 30018.0,
+      "gamma_flip": null,
+      "net_gex_total": 1864768405.0,
+      "regime": "POSITIVO (dealers amortecem movimento)",
+      "gamma_flip_note": "Flip abaixo do menor strike com OI real hoje (15000.0). O regime ja esta positivo mesmo no strike liquido mais baixo da cadeia."
     },
     "etf_based": {
       "source": "QQQ",
-      "underlying_spot": 727.231,
-      "futures_price": 30053.25,
-      "call_wall": 30167.68,
-      "put_wall": 29754.42,
-      "gamma_flip": 29844.34,
-      "net_gex_total": 1468808418.0,
+      "underlying_spot": 725.17,
+      "futures_price": 30015.5,
+      "call_wall": 30008.46,
+      "put_wall": 30008.46,
+      "gamma_flip": 29816.61,
+      "net_gex_total": 1711671703.0,
       "regime": "POSITIVO (dealers amortecem movimento)"
     }
   }
