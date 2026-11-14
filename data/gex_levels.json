@@ -1,51 +1,23 @@
 {
-  "updated_at_utc": "2026-11-13T20:08:57.762368+00:00",
+  "updated_at_utc": "2026-11-14T00:51:27.326143+00:00",
   "ES": {
     "index_based": {
       "source": "SPX",
-      "underlying_spot": 7547.0298,
-      "futures_price": 7579.0,
-      "call_wall": 7581.98,
-      "put_wall": 7581.98,
-      "gamma_flip": null,
-      "net_gex_total": -16977232661.0,
-      "regime": "NEGATIVO (dealers amplificam movimento)",
-      "gamma_flip_note": "Flip acima do maior strike com OI real hoje (10000.0). O regime segue negativo ate o topo da cadeia liquida."
+      "error": "Sem contratos 0DTE ou dados insuficientes no momento."
     },
     "etf_based": {
       "source": "SPY",
-      "underlying_spot": 752.61,
-      "futures_price": 7579.0,
-      "call_wall": 7552.72,
-      "put_wall": 7603.07,
-      "gamma_flip": null,
-      "net_gex_total": -5400843307.0,
-      "regime": "NEGATIVO (dealers amplificam movimento)",
-      "gamma_flip_note": "Flip acima do maior strike com OI real hoje (930.0). O regime segue negativo ate o topo da cadeia liquida."
+      "error": "Sem contratos 0DTE ou dados insuficientes no momento."
     }
   },
   "NQ": {
     "index_based": {
       "source": "NDX",
-      "underlying_spot": 27881.2988,
-      "futures_price": 28042.5,
-      "call_wall": 28051.25,
-      "put_wall": 28111.6,
-      "gamma_flip": null,
-      "net_gex_total": -881844924.0,
-      "regime": "NEGATIVO (dealers amplificam movimento)",
-      "gamma_flip_note": "Flip acima do maior strike com OI real hoje (40000.0). O regime segue negativo ate o topo da cadeia liquida."
+      "error": "Sem contratos 0DTE ou dados insuficientes no momento."
     },
     "etf_based": {
       "source": "QQQ",
-      "underlying_spot": 678.32,
-      "futures_price": 28042.5,
-      "call_wall": 28111.95,
-      "put_wall": 28111.95,
-      "gamma_flip": null,
-      "net_gex_total": -1957762661.0,
-      "regime": "NEGATIVO (dealers amplificam movimento)",
-      "gamma_flip_note": "Flip acima do maior strike com OI real hoje (900.0). O regime segue negativo ate o topo da cadeia liquida."
+      "error": "Sem contratos 0DTE ou dados insuficientes no momento."
     }
   }
 }
