@@ -1,51 +1,23 @@
 {
-  "updated_at_utc": "2026-11-19T21:03:36.579483+00:00",
+  "updated_at_utc": "2026-11-20T20:50:30.228576+00:00",
   "ES": {
     "index_based": {
       "source": "SPX",
-      "underlying_spot": 7183.5898,
-      "futures_price": 7213.25,
-      "call_wall": 7239.77,
-      "put_wall": 7229.73,
-      "gamma_flip": null,
-      "net_gex_total": -12699745471.0,
-      "regime": "NEGATIVO (dealers amplificam movimento)",
-      "gamma_flip_note": "Flip acima do maior strike com OI real hoje (10000.0). O regime segue negativo ate o topo da cadeia liquida."
+      "error": "403 Client Error: Forbidden for url: https://cdn-api.cboe.com/api/global/delayed_quotes/options/_SPX.json"
     },
     "etf_based": {
       "source": "SPY",
-      "underlying_spot": 716.61,
-      "futures_price": 7213.25,
-      "call_wall": 7358.1,
-      "put_wall": 7197.04,
-      "gamma_flip": null,
-      "net_gex_total": -2042643048.0,
-      "regime": "NEGATIVO (dealers amplificam movimento)",
-      "gamma_flip_note": "Flip acima do maior strike com OI real hoje (835.0). O regime segue negativo ate o topo da cadeia liquida."
+      "error": "403 Client Error: Forbidden for url: https://cdn-api.cboe.com/api/global/delayed_quotes/options/SPY.json"
     }
   },
   "NQ": {
     "index_based": {
       "source": "NDX",
-      "underlying_spot": 26551.0879,
-      "futures_price": 26682.75,
-      "call_wall": 26681.66,
-      "put_wall": 26631.41,
-      "gamma_flip": null,
-      "net_gex_total": -483532248.0,
-      "regime": "NEGATIVO (dealers amplificam movimento)",
-      "gamma_flip_note": "Flip acima do maior strike com OI real hoje (37000.0). O regime segue negativo ate o topo da cadeia liquida."
+      "error": "403 Client Error: Forbidden for url: https://cdn-api.cboe.com/api/global/delayed_quotes/options/_NDX.json"
     },
     "etf_based": {
       "source": "QQQ",
-      "underlying_spot": 646.04,
-      "futures_price": 26686.75,
-      "call_wall": 26850.33,
-      "put_wall": 26643.79,
-      "gamma_flip": null,
-      "net_gex_total": -543843737.0,
-      "regime": "NEGATIVO (dealers amplificam movimento)",
-      "gamma_flip_note": "Flip acima do maior strike com OI real hoje (765.0). O regime segue negativo ate o topo da cadeia liquida."
+      "error": "403 Client Error: Forbidden for url: https://cdn-api.cboe.com/api/global/delayed_quotes/options/QQQ.json"
     }
   }
 }
